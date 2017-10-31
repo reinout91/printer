@@ -8,7 +8,7 @@ augroup project
     autocmd!
     autocmd BufRead,BufNewFile *.h,*.cpp set filetype=cpp.doxygen
 augroup END
-set makeprg=make\ -C\ ../build\ -j9
+set makeprg=make
 nnoremap <F4> :make!<cr>
 nnoremap <F5> :!./printer<cr>
 
